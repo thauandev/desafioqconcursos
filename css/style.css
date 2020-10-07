@@ -1,0 +1,185 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: gray;
+  opacity: 0.9;
+  color: white;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container span,
+nav {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.header-right a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.section,
+.section-footer,
+.container-section {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section {
+  display: grid;
+
+  margin-top: 200px;
+}
+
+.section h1,
+h3 {
+  text-align: center;
+}
+
+.section h3 {
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+.section h1 {
+  margin-bottom: 0px;
+  font-size: 65px;
+}
+
+.section-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  padding-bottom: 30px;
+}
+
+.section-footer > i {
+  margin-left: 30px;
+}
+
+.container-section {
+  padding-bottom: 50px;
+}
+
+.container-section h3 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 40px;
+}
+
+.container-section p {
+  line-height: 1.8;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.challenge-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.challenge-section h3 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-size: 40px;
+}
+
+.section-background {
+  background-color: #d5ffed;
+}
+
+#challenge-card {
+  background-color: white;
+  border: solid 1px;
+  box-shadow: black;
+}
+
+.card {
+  display: grid;
+  justify-content: center;
+  padding-top: 50px;
+  margin-right: 260px;
+  line-height: 1.8;
+}
+
+.card-2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.card-2 button {
+  font-size: 15px;
+  background-color: white;
+  margin-right: 10px;
+  color: #15c97b;
+  border-color: #15c97b;
+  padding: 14px 40px;
+  cursor: pointer;
+}
+
+.card-3 {
+  display: grid;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 100px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.card-3 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.card-3 a {
+  margin-top: 20px;
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+#card-repo {
+  display: grid;
+  justify-content: start;
+  padding-left: 118px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  line-height: 1.8;
+}
+
+#card-repo strong {
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(54, 54, 53);
+  width: 0 auto;
+  justify-content: center;
+}
+
+footer h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
